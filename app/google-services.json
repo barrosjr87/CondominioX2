@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "259009510488",
+    "project_id": "condominio2-feba8",
+    "storage_bucket": "condominio2-feba8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259009510488:android:6362a9c11cde15e4f6de2d",
+        "android_client_info": {
+          "package_name": "com.example.condominiox"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAicgEl3uo08aPYW4Rw1TXpvTUGxjlSXQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

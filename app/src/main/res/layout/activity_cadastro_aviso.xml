@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CadastroAvisoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DBBDF1"
+        android:gravity="top"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-362dp"
+        tools:layout_editor_absoluteY="125dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/darkpurple"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/CadastroAviso_Aviso"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/darkpurple"
+                android:text="Cadastro de Avisos"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sair_Aviso"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/darkpurple"
+                android:onClick="sair"
+                android:text="Sair"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1_Aviso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:drawableBottom="@drawable/baseline_real_estate_agent_24"
+            android:textColor="@color/blue"
+            android:gravity="center"
+            android:text="Condomínio X"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewCadastrarAviso_Aviso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:drawableTop="@drawable/baseline_edit_square_24"
+            android:gravity="center"
+            android:text="Cadastrar Aviso"
+            android:textColor="@color/darkpurple"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextAviso_Aviso"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FBFBFB"
+            android:ems="10"
+            android:inputType="text"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/buttonSalvar_Aviso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/darkpurple"
+            android:text="Salvar"
+            android:textColor="@color/white"
+            app:cornerRadius="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

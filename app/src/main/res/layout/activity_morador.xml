@@ -39,7 +39,6 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/darkpurple"
-                android:onClick="sair"
                 android:text="Sair"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -69,18 +68,18 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/textView5_Morador"
+                    android:id="@+id/textViewOla_Morador"
                     android:layout_width="match_parent"
                     android:layout_height="72dp"
                     android:textSize="18dp"
-                    android:text="Olá, Fulano!" />
+                    android:text="" />
 
                 <TextView
-                    android:id="@+id/textView6_Morador"
+                    android:id="@+id/textViewApartamento_Morador"
                     android:layout_width="match_parent"
                     android:layout_height="75dp"
                     android:textSize="18dp"
-                    android:text="Apartamento 34" />
+                    android:text="" />
             </LinearLayout>
 
             <TextView
@@ -124,7 +123,6 @@
             android:layout_height="267dp"
             android:layout_marginLeft="20dp"
             android:background="@color/white"
-            android:gravity="center"
             android:orientation="vertical"></LinearLayout>
 
     </LinearLayout>

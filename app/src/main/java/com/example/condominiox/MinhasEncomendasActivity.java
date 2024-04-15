@@ -39,4 +39,10 @@ public class MinhasEncomendasActivity extends AppCompatActivity {
         startActivity(iSair);
 
     }
+    public void telacep(View v) {
+        //Criação de intent para chamada de outra tela
+        Intent itelacep = new Intent(this, ConsultaCepActivity.class);
+        //Envio de solicitação
+        startActivity(itelacep);
+    }
 }

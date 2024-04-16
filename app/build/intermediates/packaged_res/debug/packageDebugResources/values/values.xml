@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#536DFE</color>
+    <color name="darkpurple">#810097</color>
+    <color name="lightpurple">#DBBDF1</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">CondominioX</string>
+    <string name="gcm_defaultSenderId" translatable="false">259009510488</string>
+    <string name="google_api_key" translatable="false">AIzaSyAicgEl3uo08aPYW4Rw1TXpvTUGxjlSXQQ</string>
+    <string name="google_app_id" translatable="false">1:259009510488:android:6362a9c11cde15e4f6de2d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAicgEl3uo08aPYW4Rw1TXpvTUGxjlSXQQ</string>
+    <string name="google_storage_bucket" translatable="false">condominio2-feba8.appspot.com</string>
+    <string name="project_id" translatable="false">condominio2-feba8</string>
+    <style name="Base.Theme.CondominioX" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.CondominioX" parent="Base.Theme.CondominioX"/>
+</resources>

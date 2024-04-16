@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EncomendaEntregueActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DBBDF1"
+        android:gravity="top"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-362dp"
+        tools:layout_editor_absoluteY="125dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/darkpurple"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/AreaRestrita_Encomenda"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/darkpurple"
+                android:text="Nova Retirada"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sair_Encomenda"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/darkpurple"
+                android:onClick="sair"
+                android:text="Sair"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1_Encomenda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:drawableBottom="@drawable/baseline_real_estate_agent_24"
+            android:textColor="@color/blue"
+            android:gravity="center"
+            android:text="Condomínio X"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textViewRetirada_Encomenda"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawableTop="@drawable/baseline_local_offer_24"
+            android:gravity="center"
+            android:text="Informar Retirada"
+            android:textColor="@color/darkpurple"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2_Encomenda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Data:   18/032024"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView3_Encomenda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Apto.:   34"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView4_Encomenda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Tipo:   Pacote"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView5_Encomenda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Cód.:   1234"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonSalvarRetirada_Encomenda"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="100dp"
+            android:backgroundTint="@color/darkpurple"
+            android:text="Salvar Retirada"
+            android:textColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

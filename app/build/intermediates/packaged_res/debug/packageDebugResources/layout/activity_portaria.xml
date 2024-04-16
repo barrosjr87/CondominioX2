@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PortariaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DBBDF1"
+        android:gravity="top"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-362dp"
+        tools:layout_editor_absoluteY="125dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/darkpurple"
+            android:orientation="horizontal"/>
+
+        <TextView
+            android:id="@+id/textView1_Portaria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:drawableBottom="@drawable/baseline_real_estate_agent_24"
+            android:textColor="@color/blue"
+            android:gravity="center"
+            android:text="Condomínio X"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2_Portaria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:drawableTop="@drawable/baseline_manage_accounts_24"
+            android:gravity="center"
+            android:text="Portaria"
+            android:textColor="@color/darkpurple"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/editTextEmail_Portaria"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#F8F5F5"
+            android:ems="10"
+            android:hint=" E-mail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextSenha_Portaria"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#F8F5F5"
+            android:ems="10"
+            android:hint=" Senha"
+            android:inputType="text|textPassword" />
+
+        <Button
+            android:id="@+id/buttonEntrar_Portaria"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="100dp"
+            android:backgroundTint="@color/darkpurple"
+            android:onClick="AreaRestrita"
+            android:text="Acessar Área Restrita"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

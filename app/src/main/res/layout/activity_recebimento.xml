@@ -24,7 +24,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/gerenciarUsuarios_Cadastro"
+                android:id="@+id/gerenciarUsuarios_Recebimento"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_weight="1"
@@ -33,7 +33,7 @@
                 android:textColor="@color/white" />
 
             <Button
-                android:id="@+id/sair_Cadastro"
+                android:id="@+id/sair_Recebimento"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_weight="1"
@@ -44,7 +44,7 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView1_Cadastro"
+            android:id="@+id/textView1_Recebimento"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
@@ -55,7 +55,7 @@
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/textView2_Cadastro"
+            android:id="@+id/textView2_Recebimento"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -69,7 +69,7 @@
             android:textSize="20dp" />
 
         <EditText
-            android:id="@+id/editTextNome_Cadastro"
+            android:id="@+id/editTextNome_Recebimento"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"
@@ -82,7 +82,7 @@
             android:inputType="datetime|date" />
 
         <EditText
-            android:id="@+id/editTextApto_Cadastro"
+            android:id="@+id/editTextApto_Recebimento"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"
@@ -94,29 +94,42 @@
             android:hint=" Apartamento"
             android:inputType="number" />
 
+        <EditText
+            android:id="@+id/editTextCep_Recebimento"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#F8F5F5"
+            android:ems="10"
+            android:hint="CEP"
+            android:inputType="number" />
+
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:orientation="horizontal"
+            android:layout_height="77dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp">
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="TIpo:" />
+                android:text="Tipo:" />
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/radioButtonCarta_Recebimento"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Carta" />
 
             <RadioButton
-                android:id="@+id/radioButton5"
+                android:id="@+id/radioButtonPacote_Recebimento"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -125,7 +138,7 @@
         </RadioGroup>
 
         <Button
-            android:id="@+id/buttonCadastrar_Cadastro"
+            android:id="@+id/buttonCadastrar_Recebimento"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"

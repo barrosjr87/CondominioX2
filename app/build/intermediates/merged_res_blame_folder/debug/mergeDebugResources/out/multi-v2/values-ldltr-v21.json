@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.condominiox.app-mergeDebugResources-33:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.example.condominiox.app-mergeDebugResources-35:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Administrador\\.gradle\\caches\\transforms-3\\2268258f9abd9ddd46d41da6209feaa2\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "source": "C:\\Users\\barro\\.gradle\\caches\\transforms-3\\2268258f9abd9ddd46d41da6209feaa2\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

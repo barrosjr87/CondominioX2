@@ -24,12 +24,15 @@ import com.google.firebase.firestore.FirebaseFirestoreException;
 public class MoradorActivity extends AppCompatActivity {
 
     //Criando Objetos globais
-    private TextView ola_Morador, apartamento_Morador;
+    private TextView ola_Morador, apartamento_Morador, aviso_Morador;
     private Button sair_Morador;
     //Criando objeto db que receberá a instancia do bancode dados Firestore
     FirebaseFirestore db = FirebaseFirestore.getInstance();
-    //Criando String que armazenará o ID dousuário
+
     String usuárioID;
+
+    String avisoID;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,8 +66,10 @@ public class MoradorActivity extends AppCompatActivity {
         super.onStart();
         //passando o instancia do ID do usuário corrente do Firebase Auth para a variável usuarioID
         usuárioID = FirebaseAuth.getInstance().getCurrentUser().getUid();
-        //Criando documento de referência que receberá a coleção criada no bancode dados que contém os dados do usuário
+        avisoID = FirebaseAuth.getInstance().getCurrentUser().getProviderId();
+        //Criando documento de referência que receberá a coleção criada no banco de dados que contém os dados do usuário
         DocumentReference documentoReferencia = db.collection("Usuários").document(usuárioID);
+        DocumentReference documentoReferencia1 = db.collection("avisos").document(avisoID);
         documentoReferencia.addSnapshotListener(new EventListener<DocumentSnapshot>() {
             @Override
             public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException error) {
@@ -75,13 +80,23 @@ public class MoradorActivity extends AppCompatActivity {
             }
         });
 
+        documentoReferencia1.addSnapshotListener(new EventListener<DocumentSnapshot>() {
+            @Override
+            public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException error) {
+                //recuperando a chave "nome" do método Salvar Dados Usuário do Activity CadastroUsuárioActivity.java no objeto ola_morador
+                aviso_Morador.setText((documentSnapshot.getString("data")) + ": " + (documentSnapshot.getString("aviso")));
+            }
+        });
+
     }
+
 
     //Criando método sem retorno (Void) para inicializar objetos globais
     private void iniciarComponentes(){
         ola_Morador = findViewById(R.id.textViewOla_Morador);
         apartamento_Morador = findViewById(R.id.textViewApartamento_Morador);
         sair_Morador = findViewById(R.id.sair_Morador);
+        aviso_Morador = findViewById(R.id.textViewAviso_Morador);
     }
 
     public void historico(View v) {

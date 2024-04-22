@@ -43,20 +43,20 @@
                 android:textColor="@color/white" />
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/textView1_Morador"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="30dp"
-            android:drawableBottom="@drawable/baseline_real_estate_agent_24"
-            android:textColor="@color/blue"
-            android:gravity="center"
-            android:text="Condomínio X"
-            android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView1_Morador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:drawableBottom="@drawable/baseline_real_estate_agent_24"
+                android:textColor="@color/blue"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="100dp"
             android:orientation="horizontal"
             android:paddingLeft="20dp"
             android:paddingRight="20dp">
@@ -64,34 +64,34 @@
 
             <LinearLayout
                 android:layout_width="240dp"
-                android:layout_height="150dp"
+                android:layout_height="100dp"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textViewOla_Morador"
                     android:layout_width="match_parent"
-                    android:layout_height="72dp"
-                    android:textSize="18dp"
-                    android:text="" />
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:textSize="18dp" />
 
                 <TextView
                     android:id="@+id/textViewApartamento_Morador"
                     android:layout_width="match_parent"
-                    android:layout_height="75dp"
-                    android:textSize="18dp"
-                    android:text="" />
+                    android:layout_height="50dp"
+                    android:text=""
+                    android:textSize="18dp" />
             </LinearLayout>
 
             <TextView
                 android:id="@+id/textViewHistórico_Morador"
                 android:layout_width="138dp"
-                android:layout_height="140dp"
+                android:layout_height="100dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:drawableTop="@drawable/baseline_local_offer_24"
+                android:drawableTop="@drawable/baseline_lupa"
                 android:gravity="center"
-                android:onClick="historico"
-                android:text="MInhas Encomendas"
+                android:onClick="telacep"
+                android:text="Consulta CEP"
                 android:textColor="@color/darkpurple"
                 android:textSize="20sp" />
 
@@ -99,7 +99,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="40dp"
             android:orientation="horizontal"
             android:paddingLeft="20dp"
             android:paddingRight="20dp">
@@ -107,7 +107,7 @@
             <TextView
                 android:id="@+id/textViewReceber_Morador"
                 android:layout_width="wrap_content"
-                android:layout_height="55dp"
+                android:layout_height="40dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
@@ -119,13 +119,106 @@
         </LinearLayout>
 
         <TextView
+            android:background="@color/white"
             android:id="@+id/textViewAviso_Morador"
             android:layout_width="match_parent"
-            android:layout_height="230dp"
+            android:layout_height="100dp"
             android:layout_margin="20dp"
             android:text=""
             android:textSize="18dp" />
 
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/data_Historico"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="Data"
+                android:textAlignment="center"
+                android:textColor="@color/darkpurple"
+                android:textStyle="bold"
+                app:layout_column="0"
+                app:layout_row="0" />
+
+            <TextView
+                android:id="@+id/codigo_Historico"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="CEP"
+                android:textAlignment="center"
+                android:textColor="@color/darkpurple"
+                android:textStyle="bold"
+                app:layout_column="1"
+                app:layout_row="0" />
+
+            <TextView
+                android:id="@+id/tipo_Historico"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="Descrição"
+                android:textAlignment="center"
+                android:textColor="@color/darkpurple"
+                android:textStyle="bold"
+                app:layout_column="2"
+                app:layout_row="0" />
+
+            <TextView
+                android:id="@+id/retirar_Historico"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Retirar"
+                android:textAlignment="center"
+                android:textColor="@color/darkpurple"
+                android:textStyle="bold"
+                app:layout_column="3"
+                app:layout_row="0" />
+
+            <TextView
+                android:id="@+id/dataView_Historico"
+                android:layout_width="89dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                app:layout_column="0"
+                app:layout_row="1" />
+
+            <TextView
+                android:id="@+id/codigoView_Historico"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                app:layout_column="1"
+                app:layout_row="1" />
+
+            <TextView
+                android:id="@+id/tipoView_Historico"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center"
+                app:layout_column="2"
+                app:layout_row="1" />
+
+            <ImageButton
+                android:id="@+id/checkButton_Historico"
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:contentDescription="@string/app_name"
+                android:onClick="encomenda"
+                app:layout_column="3"
+                app:layout_row="1"
+                app:srcCompat="@drawable/baseline_add_circle_24"
+                tools:ignore="TouchTargetSizeCheck" />
+
+        </androidx.gridlayout.widget.GridLayout>
     </LinearLayout>
 
 

@@ -125,7 +125,6 @@ protected void onCreate(Bundle savedInstanceState) {
         Intent iPortaria = new Intent(this, PortariaActivity.class);
         //Envio de solicitação
         startActivity(iPortaria);
-
     }
 
     public void morador() {
@@ -133,8 +132,6 @@ protected void onCreate(Bundle savedInstanceState) {
         Intent iMorador = new Intent(this, MoradorActivity.class);
         //Envio de solicitação
         startActivity(iMorador);
-        finish();
-
     }
 }
 

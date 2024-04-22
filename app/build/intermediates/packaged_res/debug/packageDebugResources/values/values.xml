@@ -5,7 +5,7 @@
     <color name="darkpurple">#810097</color>
     <color name="lightpurple">#DBBDF1</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">CondominioX</string>
+    <string name="app_name">Condomínio Parque Serafim</string>
     <string name="gcm_defaultSenderId" translatable="false">259009510488</string>
     <string name="google_api_key" translatable="false">AIzaSyAicgEl3uo08aPYW4Rw1TXpvTUGxjlSXQQ</string>
     <string name="google_app_id" translatable="false">1:259009510488:android:6362a9c11cde15e4f6de2d</string>

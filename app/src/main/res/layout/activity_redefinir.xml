@@ -22,7 +22,28 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@color/darkpurple"
-            android:orientation="horizontal"/>
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/AreaRestrita_AreaRestrita"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/darkpurple"
+                android:text="Morador"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sair_Redefinir"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/darkpurple"
+                android:onClick="sair_redefinir"
+                android:text="Sair"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textView1_Redefinir"
@@ -32,7 +53,7 @@
             android:drawableBottom="@drawable/baseline_real_estate_agent_24"
             android:textColor="@color/blue"
             android:gravity="center"
-            android:text="Condomínio X"
+            android:text="@string/app_name"
             android:textSize="20sp" />
 
         <TextView

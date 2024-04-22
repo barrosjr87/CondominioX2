@@ -52,7 +52,7 @@
             android:drawableBottom="@drawable/baseline_real_estate_agent_24"
             android:textColor="@color/blue"
             android:gravity="center"
-            android:text="Condomínio X"
+            android:text="@string/app_name"
             android:textSize="20sp" />
 
         <TextView
@@ -69,8 +69,9 @@
             android:textColor="@color/darkpurple"
             android:textSize="20dp" />
 
+
         <EditText
-            android:id="@+id/editTextAviso_Aviso"
+            android:id="@+id/cadastro_Aviso"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginLeft="20dp"
@@ -79,8 +80,24 @@
             android:layout_marginBottom="10dp"
             android:background="#FBFBFB"
             android:ems="10"
+            android:hint="Digite aqui o aviso aos moradores"
             android:inputType="text"
             tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/data_Aviso"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FBFBFB"
+            android:ems="10"
+            android:hint="Data"
+            android:inputType="datetime|date"
+            tools:ignore="SpeakableTextPresentCheck" />
+
 
         <Button
             android:id="@+id/buttonSalvar_Aviso"

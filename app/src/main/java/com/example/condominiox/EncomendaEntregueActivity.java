@@ -25,7 +25,7 @@ public class EncomendaEntregueActivity extends AppCompatActivity {
     }
     public void sair(View v) {
         //Criação de intent para chamada de outra tela
-        Intent iSair = new Intent(this, MainActivity.class);
+        Intent iSair = new Intent(this, MoradorActivity.class);
         //Envio de solicitação
         startActivity(iSair);
 

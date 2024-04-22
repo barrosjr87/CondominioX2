@@ -38,6 +38,11 @@ dependencies {
     implementation libs.constraintlayout
     implementation libs.gridlayout
     implementation libs.firebase.common
+    implementation libs.firebase.firestore
+    implementation "androidx.recyclerview:recyclerview:1.3.2"
+    implementation "androidx.recyclerview:recyclerview-selection:1.1.0"
+    implementation libs.firebase.database
+
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core

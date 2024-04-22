@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.condominiox.app-mergeDebugResources-35:/values-v16/values-v16.xml",
+            "outputFile": "com.example.condominiox.app-mergeDebugResources-37:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\barro\\.gradle\\caches\\transforms-3\\b3bb33a370360d29c90dd0860a9559ba\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\barro\\.gradle\\caches\\transforms-3\\2268258f9abd9ddd46d41da6209feaa2\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\leuel\\.gradle\\caches\\transforms-3\\06861795d6ea5645708d364bbfc55aae\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\leuel\\.gradle\\caches\\transforms-3\\bf707c4929549d134498aa2367fa74ef\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

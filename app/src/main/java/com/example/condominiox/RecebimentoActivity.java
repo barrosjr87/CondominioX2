@@ -40,6 +40,7 @@ public class RecebimentoActivity extends AppCompatActivity {
 
     private RadioButton radioCarta, radioPacote;
 
+
     private Button cadastrarRecebimento;
 
     String radioGroup;
@@ -100,6 +101,7 @@ public class RecebimentoActivity extends AppCompatActivity {
 
             }
         });
+
     }
 
 
@@ -155,23 +157,11 @@ public class RecebimentoActivity extends AppCompatActivity {
         cadastrarRecebimento = findViewById(R.id.buttonCadastrar_Recebimento);
     }
 
-
-
-
     public void sair(View v) {
         //Criação de intent para chamada de outra tela
-        Intent iSair = new Intent(this, MainActivity.class);
+        Intent iSair = new Intent(this, AreaRestritaActivity.class);
         //Envio de solicitação
         startActivity(iSair);
 
     }
-
-    public void clear(View v) {
-        //Criação de intent para chamada de outra tela
-        Intent iReload = new Intent(this, RecebimentoActivity.class);
-        //Envio de solicitação
-        startActivity(iReload);
-
-    }
-
 }

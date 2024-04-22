@@ -3,6 +3,7 @@ package com.example.condominiox;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +12,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class AreaRestritaActivity extends AppCompatActivity {
+
+    private Button btlistaportaria;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +26,21 @@ public class AreaRestritaActivity extends AppCompatActivity {
             return insets;
         });
 
-    }
+        iniciarComponentes();
 
+        btlistaportaria.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AreaRestritaActivity.this, PortariaListaEncomendas.class);
+                startActivity(intent);
+            }
+        });
+
+    }
+    private void iniciarComponentes(){
+
+       btlistaportaria = findViewById(R.id.button_ListaPortaria);
+    }
     //Criando métodos para acessar outra tela
     public void Avisos(View v) {
         //Criação de intent para chamada de outra tela

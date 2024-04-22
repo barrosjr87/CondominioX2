@@ -3141,13 +3141,13 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable selection_band_overlay
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
 id AreaRestrita_AreaRestrita
 id AreaRestrita_Encomenda
-id AreaRestrita_Historico
 id AreaRestrita_Morador
 id BOTTOM_END
 id BOTTOM_START
@@ -3266,7 +3266,10 @@ id buttonNaoMeLembro_Inicio
 id buttonPanel
 id buttonSalvarRetirada_Encomenda
 id buttonSalvar_Aviso
+id button_ListaPortaria
+id button_sairlistaportaria
 id cache_measures
+id cadastro_Aviso
 id callMeasure
 id cancel_button
 id carryVelocity
@@ -3279,6 +3282,7 @@ id cep
 id chain
 id chain2
 id chains
+id checkButton_Historico
 id checkbox
 id checked
 id chronometer
@@ -3288,6 +3292,8 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id closest
+id codigoView_Historico
+id codigo_Historico
 id collapseActionView
 id compress
 id confirm_button
@@ -3306,6 +3312,9 @@ id custom
 id customPanel
 id cut
 id dark
+id dataView_Historico
+id data_Aviso
+id data_Historico
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3343,7 +3352,6 @@ id east
 id edge
 id editTextApto_Cadastro
 id editTextApto_Recebimento
-id editTextAviso_Aviso
 id editTextCep_Recebimento
 id editTextEmail_AreaRestrita
 id editTextEmail_Cadastro
@@ -3414,6 +3422,7 @@ id indeterminate
 id info
 id invisible
 id inward
+id is_pooling_container_tag
 id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
@@ -3429,6 +3438,7 @@ id line3
 id linear
 id listMode
 id list_item
+id listview_portaria
 id m3_side_sheet
 id main
 id marquee
@@ -3540,6 +3550,7 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id pooling_container_listener_holder_tag
 id position
 id postLayout
 id pressed
@@ -3552,6 +3563,7 @@ id radioButtonPacote_Recebimento
 id ratio
 id rectangles
 id report_drawn
+id retirar_Historico
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3563,9 +3575,9 @@ id sair_AreaRestrita
 id sair_Aviso
 id sair_Cadastro
 id sair_Encomenda
-id sair_Historico
 id sair_Morador
 id sair_Recebimento
+id sair_Redefinir
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3654,7 +3666,6 @@ id textView1_AreaRestrita
 id textView1_Aviso
 id textView1_Cadastro
 id textView1_Encomenda
-id textView1_Historico
 id textView1_Inicio
 id textView1_Morador
 id textView1_Portaria
@@ -3667,7 +3678,6 @@ id textView2_Portaria
 id textView2_Recebimento
 id textView2_Redefinir
 id textView3_Encomenda
-id textView3_Historico
 id textView4_Encomenda
 id textView4_Historico
 id textView5_Encomenda
@@ -3678,13 +3688,11 @@ id textView8_Historico
 id textView9_Historico
 id textViewApartamento_Morador
 id textViewAviso_AreaRestrita
+id textViewAviso_Morador
 id textViewCadastrarAviso_Aviso
-id textViewCondominioX_Historico
-id textViewHistórico_Historico
 id textViewHistórico_Morador
 id textViewOla_Morador
 id textViewReceber_AreaRestrita
-id textViewReceber_Historico
 id textViewReceber_Morador
 id textViewRetirada_Encomenda
 id textViewTela_Cep
@@ -3699,6 +3707,8 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
+id tipoView_Historico
+id tipo_Historico
 id title
 id titleDividerNoCustom
 id title_template
@@ -3864,6 +3874,7 @@ layout activity_main
 layout activity_minhas_encomendas
 layout activity_morador
 layout activity_portaria
+layout activity_portaria_lista_encomendas
 layout activity_recebimento
 layout activity_redefinir
 layout browser_actions_context_menu_page

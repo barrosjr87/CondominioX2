@@ -25,12 +25,15 @@ public class ConsultaCepActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        //Componente que ativa o webview
         WebView webView = findViewById(R.id.webView);
 
+        //habilita o webview para aceitar javascript
         webView.setWebViewClient(new WebViewClient());
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setDomStorageEnabled(true);
 
+        //url da aplicação javascript com a API
         webView.loadUrl("https://alexandremachadosilva.github.io/Consumir-API-ViaCep/");
     }
 }

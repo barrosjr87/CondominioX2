@@ -3437,7 +3437,6 @@ int id line3 0x7f080121
 int id linear 0x7f080122
 int id listMode 0x7f080123
 int id list_item 0x7f080124
-int id listview_portaria 0x7f080125
 int id m3_side_sheet 0x7f080126
 int id main 0x7f080127
 int id marquee 0x7f080128
@@ -3561,6 +3560,7 @@ int id radioButtonCarta_Recebimento 0x7f08019d
 int id radioButtonPacote_Recebimento 0x7f08019e
 int id ratio 0x7f08019f
 int id rectangles 0x7f0801a0
+int id recyclerView 0x7f08025e
 int id report_drawn 0x7f0801a2
 int id retirar_Historico 0x7f0801a3
 int id reverseSawtooth 0x7f0801a4
@@ -3723,6 +3723,10 @@ int id transition_position 0x7f080240
 int id transition_scene_layoutid_cache 0x7f080241
 int id transition_transform 0x7f080242
 int id triangle 0x7f080243
+int id tvCepLista 0x7f08025f
+int id tvaptoLista 0x7f080260
+int id tvdataLista 0x7f080261
+int id tvtipoLista 0x7f080262
 int id unchecked 0x7f080244
 int id uniform 0x7f080245
 int id unlabeled 0x7f080246
@@ -3894,6 +3898,7 @@ int layout design_navigation_menu 0x7f0b0037
 int layout design_navigation_menu_item 0x7f0b0038
 int layout design_text_input_end_icon 0x7f0b0039
 int layout design_text_input_start_icon 0x7f0b003a
+int layout item 0x7f0b0078
 int layout m3_alert_dialog 0x7f0b003b
 int layout m3_alert_dialog_actions 0x7f0b003c
 int layout m3_alert_dialog_title 0x7f0b003d

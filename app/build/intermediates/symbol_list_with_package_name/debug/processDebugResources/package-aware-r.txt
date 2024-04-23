@@ -3438,7 +3438,6 @@ id line3
 id linear
 id listMode
 id list_item
-id listview_portaria
 id m3_side_sheet
 id main
 id marquee
@@ -3562,6 +3561,7 @@ id radioButtonCarta_Recebimento
 id radioButtonPacote_Recebimento
 id ratio
 id rectangles
+id recyclerView
 id report_drawn
 id retirar_Historico
 id reverseSawtooth
@@ -3724,6 +3724,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvCepLista
+id tvaptoLista
+id tvdataLista
+id tvtipoLista
 id unchecked
 id uniform
 id unlabeled
@@ -3895,6 +3899,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout item
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

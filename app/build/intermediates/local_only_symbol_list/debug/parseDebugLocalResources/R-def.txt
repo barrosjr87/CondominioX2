@@ -61,11 +61,11 @@ id gerenciarUsuarios_Cadastro
 id gerenciarUsuarios_Recebimento
 id imageButton
 id imageButton_Historico
-id listview_portaria
 id main
 id progressBar_Inicio
 id radioButtonCarta_Recebimento
 id radioButtonPacote_Recebimento
+id recyclerView
 id retirar_Historico
 id sair_AreaRestrita
 id sair_Aviso
@@ -113,6 +113,10 @@ id textViewTela_Cep
 id textViewUsuário_AreaRestrita
 id tipoView_Historico
 id tipo_Historico
+id tvCepLista
+id tvaptoLista
+id tvdataLista
+id tvtipoLista
 id webView
 layout activity_area_restrita
 layout activity_cadastro_aviso
@@ -126,6 +130,7 @@ layout activity_portaria
 layout activity_portaria_lista_encomendas
 layout activity_recebimento
 layout activity_redefinir
+layout item
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

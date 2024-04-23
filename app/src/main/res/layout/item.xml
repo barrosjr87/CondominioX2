@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardElevation="8dp"
     app:cardCornerRadius="8dp"
-    android:layout_margin="16dp">
+    android:layout_margin="10dp">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
                 android:layout_height="wrap_content"
                 android:text="Cep:"
                 android:textColor="@color/black"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 android:textStyle="bold"/>
 
             <TextView
@@ -48,7 +48,7 @@
                 android:layout_height="wrap_content"
                 android:text="Apto:"
                 android:textColor="@color/black"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 android:textStyle="bold"/>
 
             <TextView
@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:text="Data:"
                 android:textColor="@color/black"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 android:textStyle="bold"/>
 
             <TextView
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:text="Tipo:"
                 android:textColor="@color/black"
-                android:textSize="20sp"
+                android:textSize="16sp"
                 android:textStyle="bold"/>
 
             <TextView

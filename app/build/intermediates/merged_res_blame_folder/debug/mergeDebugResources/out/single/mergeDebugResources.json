@@ -4,10 +4,6 @@
         "source": "C:\\Users\\leuel\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.condominiox.app-debug-39:/layout_item.xml.flat",
-        "source": "com.example.condominiox.app-main-41:/layout/item.xml"
-    },
-    {
         "merged": "C:\\Users\\leuel\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_alternate_email_24.xml.flat",
         "source": "C:\\Users\\leuel\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_alternate_email_24.xml"
     },
@@ -92,6 +88,10 @@
         "source": "C:\\Users\\leuel\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_cadastro_usuario.xml"
     },
     {
+        "merged": "C:\\Users\\leuel\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_item.xml.flat",
+        "source": "C:\\Users\\leuel\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\item.xml"
+    },
+    {
         "merged": "C:\\Users\\leuel\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_real_estate_agent_24.xml.flat",
         "source": "C:\\Users\\leuel\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_real_estate_agent_24.xml"
     },
@@ -150,10 +150,6 @@
     {
         "merged": "C:\\Users\\leuel\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\leuel\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.condominiox.app-debug-39:/layout_activity_morador.xml.flat",
-        "source": "com.example.condominiox.app-main-41:/layout/activity_morador.xml"
     },
     {
         "merged": "C:\\Users\\leuel\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_portaria.xml.flat",

@@ -41,12 +41,6 @@ import java.util.ArrayList;
 
 public class PortariaListaEncomendas extends AppCompatActivity {
 
-    //FirebaseFirestore db = FirebaseFirestore.getInstance();
-    //private ListView listaPortaria;
-    //private String[] itens = {"Pacote 1", "Carta 2", "Pacote 3","Pacote 4", "Carta 5", "Pacote 6","Pacote 7", "Carta 8", "Pacote 9","Pacote 10", "Carta 11", "Pacote 12"};
-
-
-
     RecyclerView recyclerView;
     ArrayList<Encomendas> userArrayList;
     MyAdapter myAdapter;
@@ -68,7 +62,7 @@ public class PortariaListaEncomendas extends AppCompatActivity {
 
         progressDialog = new ProgressDialog(this);
         progressDialog.setCancelable(false);
-        progressDialog.setMessage("Fetching Data...");
+        progressDialog.setMessage("Aguarde! Buscando Dados...");
         progressDialog.show();
 
         recyclerView = findViewById(R.id.recyclerView);
@@ -81,12 +75,7 @@ public class PortariaListaEncomendas extends AppCompatActivity {
 
         recyclerView.setAdapter(myAdapter);
 
-
         EventChangeListener();
-
-
-
-
 
         sairlistaportaria = findViewById(R.id.button_sairlistaportaria);
         sairlistaportaria.setOnClickListener(new View.OnClickListener() {
@@ -100,7 +89,8 @@ public class PortariaListaEncomendas extends AppCompatActivity {
 
     private void EventChangeListener() {
 
-        db.collection("Encomendas").orderBy("apto", Query.Direction.ASCENDING)
+        db.collection("Encomendas")
+                .orderBy("data", Query.Direction.DESCENDING)
                 .addSnapshotListener(new EventListener<QuerySnapshot>() {
             @Override
             public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {

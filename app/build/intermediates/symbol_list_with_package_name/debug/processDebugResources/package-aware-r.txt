@@ -3057,6 +3057,7 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_back_black_24
+drawable ic_card
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -3282,7 +3283,6 @@ id cep
 id chain
 id chain2
 id chains
-id checkButton_Historico
 id checkbox
 id checked
 id chronometer
@@ -3292,8 +3292,6 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id closest
-id codigoView_Historico
-id codigo_Historico
 id collapseActionView
 id compress
 id confirm_button
@@ -3312,9 +3310,7 @@ id custom
 id customPanel
 id cut
 id dark
-id dataView_Historico
 id data_Aviso
-id data_Historico
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3563,7 +3559,6 @@ id ratio
 id rectangles
 id recyclerView
 id report_drawn
-id retirar_Historico
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3707,8 +3702,6 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id time
-id tipoView_Historico
-id tipo_Historico
 id title
 id titleDividerNoCustom
 id title_template
@@ -3900,6 +3893,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout item
+layout item2
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

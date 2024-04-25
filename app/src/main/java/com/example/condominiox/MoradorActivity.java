@@ -50,15 +50,11 @@ public class MoradorActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     ArrayList<Encomendas> userArrayList;
     MyAdapterMorador myAdapter;
-    //FirebaseFirestore dbv;
     ProgressDialog progressDialog;
 
 
     String usuarioID;
     String avisoID;
-    String dataViewID;
-    String codigoViewID;
-    String tipoViewID;
 
 
     @Override
@@ -139,7 +135,7 @@ public class MoradorActivity extends AppCompatActivity {
     private void EventChangeListener() {
 
         db.collection("Encomendas")
-                .whereEqualTo("apto","107")
+                .whereEqualTo("apto","10")
                 .orderBy("data", Query.Direction.DESCENDING)
                 .addSnapshotListener(new EventListener<QuerySnapshot>() {
                     @Override

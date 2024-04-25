@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardElevation="8dp"
     app:cardCornerRadius="8dp"
-    android:layout_margin="10dp">
+    android:layout_margin="05dp">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -13,8 +13,8 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:src="@drawable/ic_card"
             android:layout_gravity="center"
             />
@@ -22,7 +22,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="5dp"
             android:layout_marginVertical="6dp"
             android:orientation="vertical">
 
@@ -37,7 +37,7 @@
                     android:layout_height="wrap_content"
                     android:text="CEP de origem:"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="12sp"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -47,7 +47,7 @@
                     android:layout_marginStart="8dp"
                     android:text="08563987"
                     android:textColor="@color/blue"
-                    android:textSize="16sp"/>
+                    android:textSize="12sp"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -60,7 +60,7 @@
                     android:layout_height="wrap_content"
                     android:text="Apto de entrega:"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="12sp"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -70,7 +70,7 @@
                     android:layout_marginStart="8dp"
                     android:text="107"
                     android:textColor="@color/blue"
-                    android:textSize="16sp"/>
+                    android:textSize="12sp"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -83,7 +83,7 @@
                     android:layout_height="wrap_content"
                     android:text="Data do recebimento:"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="12sp"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -93,7 +93,7 @@
                     android:layout_marginStart="8dp"
                     android:text="21/05/2024"
                     android:textColor="@color/blue"
-                    android:textSize="16sp"/>
+                    android:textSize="12sp"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -106,7 +106,7 @@
                     android:layout_height="wrap_content"
                     android:text="Tipo de encomenda:"
                     android:textColor="@color/black"
-                    android:textSize="16sp"
+                    android:textSize="12sp"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -116,7 +116,7 @@
                     android:layout_marginStart="8dp"
                     android:text="Pacote"
                     android:textColor="@color/blue"
-                    android:textSize="16sp"/>
+                    android:textSize="12sp"/>
             </LinearLayout>
 
 

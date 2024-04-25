@@ -10,8 +10,8 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
             android:src="@drawable/ic_card"
             android:layout_gravity="center"
             />
@@ -34,7 +34,7 @@
                     android:layout_height="wrap_content"
                     android:text="CEP:"
                     android:textColor="@color/black"
-                    android:textSize="12sp"
+                    android:textSize="10sp"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -44,7 +44,7 @@
                     android:layout_marginStart="8dp"
                     android:text=""
                     android:textColor="@color/blue"
-                    android:textSize="14sp"/>
+                    android:textSize="12sp"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -57,7 +57,7 @@
                     android:layout_height="wrap_content"
                     android:text="Apto:      "
                     android:textColor="@color/black"
-                    android:textSize="12sp"
+                    android:textSize="10sp"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -67,7 +67,7 @@
                     android:layout_marginStart="8dp"
                     android:text=""
                     android:textColor="@color/blue"
-                    android:textSize="14sp"/>
+                    android:textSize="12sp"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -80,7 +80,7 @@
                     android:layout_height="wrap_content"
                     android:text="Data:"
                     android:textColor="@color/black"
-                    android:textSize="12sp"
+                    android:textSize="10sp"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -90,7 +90,7 @@
                     android:layout_marginStart="8dp"
                     android:text=""
                     android:textColor="@color/blue"
-                    android:textSize="14sp"/>
+                    android:textSize="12sp"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -103,7 +103,7 @@
                     android:layout_height="wrap_content"
                     android:text="Tipo:"
                     android:textColor="@color/black"
-                    android:textSize="12sp"
+                    android:textSize="10sp"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -113,11 +113,18 @@
                     android:layout_marginStart="8dp"
                     android:text=""
                     android:textColor="@color/blue"
-                    android:textSize="14sp"/>
+                    android:textSize="12sp"/>
             </LinearLayout>
 
 
         </LinearLayout>
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:onClick="encomenda"
+            android:src="@drawable/baseline_add_circle_24"
+            android:layout_gravity="center"
+            />
 
     </LinearLayout>
 

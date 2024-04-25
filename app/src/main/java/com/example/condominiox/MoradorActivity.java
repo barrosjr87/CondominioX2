@@ -41,6 +41,7 @@ public class MoradorActivity extends AppCompatActivity {
 
     //Criando Objetos globais
     private TextView ola_Morador, apartamento_Morador, aviso_Morador;
+    private Button sair_Morador;
 
     //Criando objeto db que receberá a instancia do bancode dados Firestore
     FirebaseFirestore db = FirebaseFirestore.getInstance();
@@ -59,8 +60,6 @@ public class MoradorActivity extends AppCompatActivity {
     String codigoViewID;
     String tipoViewID;
 
-    String numApto;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,7 +73,18 @@ public class MoradorActivity extends AppCompatActivity {
         });
 
         iniciarComponentes();
+        sair_Morador.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
 
+                FirebaseAuth.getInstance().signOut();
+                //Criação de intent para chamada de outra tela
+                Intent iSair = new Intent(MoradorActivity.this, MainActivity.class);
+                //Envio de solicitação
+                startActivity(iSair);
+                finish();
+            }
+        });
 
         //recyclerView do morador
         progressDialog = new ProgressDialog(this);
@@ -114,7 +124,7 @@ public class MoradorActivity extends AppCompatActivity {
                 //recuperando a chave "nome" do método Salvar Dados Usuário do Activity CadastroUsuárioActivity.java no objeto ola_morador
                 ola_Morador.setText("Olá, " + (documentSnapshot.getString("nome")+ "!"));
                 //recuperando a chave "nome" do método Salvar Dados Usuário do Activity CadastroUsuárioActivity.java no objeto ola_morador
-                apartamento_Morador.setText("Apartamento " + (documentSnapshot.getString("apto")));
+                apartamento_Morador.setText("Apartamento " + (documentSnapshot.getString("apto")+"."));
             }
         });
 
@@ -128,74 +138,46 @@ public class MoradorActivity extends AppCompatActivity {
     }
     private void EventChangeListener() {
 
-        usuarioID = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        db.collection("Encomendas")
+                .whereEqualTo("apto","107")
+                .orderBy("data", Query.Direction.DESCENDING)
+                .addSnapshotListener(new EventListener<QuerySnapshot>() {
+                    @Override
+                    public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {
 
-        DocumentReference reference = db.collection("Usuários").document(usuarioID);
+                        if(error != null){
 
-        reference.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-            @Override
-            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                            if(progressDialog.isShowing())
+                                progressDialog.dismiss();
+                            Log.e("Firestore error", error.getMessage());
+                            return;
+                        }
 
-                if (task.isSuccessful()) {
-                    DocumentSnapshot docSnapshot = task.getResult();
+                        for(DocumentChange dc : value.getDocumentChanges()){
 
-                    if (docSnapshot.exists()) {
-                        String info = (String) docSnapshot.getData().get("apto");
+                            if(dc.getType() == DocumentChange.Type.ADDED){
 
-                        db.collection("Encomendas")
-                                .whereEqualTo("apto", info)
-                                .orderBy("data", Query.Direction.DESCENDING)
-                                .addSnapshotListener(new EventListener<QuerySnapshot>() {
-                                    @Override
-                                    public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {
+                                userArrayList.add(dc.getDocument().toObject(Encomendas.class));
 
-                                        if (error != null) {
+                            }
 
-                                            if (progressDialog.isShowing())
-                                                progressDialog.dismiss();
-                                            Log.e("Firestore error", error.getMessage());
-                                            return;
-                                        }
+                            myAdapter.notifyDataSetChanged();
+                            if(progressDialog.isShowing())
+                                progressDialog.dismiss();
 
-                                        for (DocumentChange dc : value.getDocumentChanges()) {
+                        }
 
-                                            if (dc.getType() == DocumentChange.Type.ADDED) {
-
-                                                userArrayList.add(dc.getDocument().toObject(Encomendas.class));
-
-                                            }
-
-                                            myAdapter.notifyDataSetChanged();
-                                            if (progressDialog.isShowing())
-                                                progressDialog.dismiss();
-
-                                        }
-
-
-                                    }
-                                });
 
                     }
-
-                }
-
-            }
-        });
-
+                });
     }
 
     //Criando método sem retorno (Void) para inicializar objetos globais
     private void iniciarComponentes(){
         ola_Morador = findViewById(R.id.textViewOla_Morador);
         apartamento_Morador = findViewById(R.id.textViewApartamento_Morador);
+        sair_Morador = findViewById(R.id.sair_Morador);
         aviso_Morador = findViewById(R.id.textViewAviso_Morador);
-    }
-
-    public void sair_Morador(View v) {
-        //Criação de intent para chamada de outra tela
-        Intent iSair = new Intent(this, MainActivity.class);
-        //Envio de solicitação
-        startActivity(iSair);
     }
 
     public void telacep(View v) {

@@ -1,190 +1,182 @@
 [
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-anydpi\\ic_launcher.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_morador.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_morador.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_list_24.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_list_24.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_encomenda_entregue.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_encomenda_entregue.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_encomenda_entregue.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_encomenda_entregue.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_ic_eye.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\ic_eye.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_area_restrita.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_area_restrita.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_cadastro_aviso.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_cadastro_aviso.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_item.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\item.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_cadastro_usuario.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_cadastro_usuario.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_add_circle_24.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_add_circle_24.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_real_estate_agent_24.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_real_estate_agent_24.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_circle_24.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_circle_24.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_alternate_email_24.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_alternate_email_24.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_ic_login.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\ic_login.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_portaria.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_portaria.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_login_24.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_login_24.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_ic_card.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\ic_card.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_ic_card.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\ic_card.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_item.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\item.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_lupa.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_lupa.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_local_offer_24.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_local_offer_24.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_person_add_24.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_person_add_24.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_minhas_encomendas.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_minhas_encomendas.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_real_estate_agent_24.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_real_estate_agent_24.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_circle_24.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_circle_24.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_portaria_lista_encomendas.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_portaria_lista_encomendas.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_manage_accounts_24.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_manage_accounts_24.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_redefinir.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_redefinir.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_person_add_24.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_person_add_24.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_item2.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\item2.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_local_offer_24.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_local_offer_24.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_cadastro_usuario.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_cadastro_usuario.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_edit_square_24.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_edit_square_24.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_consulta_cep.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_consulta_cep.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_manage_accounts_24.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_manage_accounts_24.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_recebimento.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_recebimento.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-anydpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_portaria_lista_encomendas.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_portaria_lista_encomendas.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_login_24.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_login_24.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_list_24.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_list_24.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_item2.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\item2.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_lupa.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_lupa.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_alternate_email_24.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_alternate_email_24.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_consulta_cep.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_consulta_cep.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_portaria.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_portaria.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_assignment_returned_24.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_assignment_returned_24.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_area_restrita.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_area_restrita.xml"
     },
     {
-        "merged": "com.example.condominiox.app-debug-39:/layout_activity_portaria_lista_encomendas.xml.flat",
-        "source": "com.example.condominiox.app-main-41:/layout/activity_portaria_lista_encomendas.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-anydpi\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.condominiox.app-debug-39:/layout_activity_main.xml.flat",
+        "source": "com.example.condominiox.app-main-41:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_add_circle_24.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_add_circle_24.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_recebimento.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_recebimento.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_redefinir.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_redefinir.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_minhas_encomendas.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_minhas_encomendas.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_search_24.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_search_24.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_search_24.xml"
     },
     {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_morador.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_morador.xml"
-    },
-    {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\layout_activity_cadastro_aviso.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\layout\\activity_cadastro_aviso.xml"
-    },
-    {
-        "merged": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_assignment_returned_24.xml.flat",
-        "source": "C:\\Users\\barro\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_assignment_returned_24.xml"
+        "merged": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-debug-39:\\drawable_baseline_edit_square_24.xml.flat",
+        "source": "C:\\Users\\Administrador\\.gradle\\daemon\\8.4\\com.example.condominiox.app-main-41:\\drawable\\baseline_edit_square_24.xml"
     }
 ]

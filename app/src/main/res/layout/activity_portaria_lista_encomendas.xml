@@ -29,7 +29,7 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/darkpurple"
-                android:text="Cadastro de Avisos"
+                android:text="Lista de Encomendas"
                 android:textColor="@color/white" />
 
             <Button

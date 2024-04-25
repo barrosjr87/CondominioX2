@@ -19,8 +19,10 @@ drawable baseline_person_add_24
 drawable baseline_real_estate_agent_24
 drawable baseline_search_24
 drawable ic_card
+drawable ic_eye
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_login
 id AreaRestrita_AreaRestrita
 id AreaRestrita_Encomenda
 id AreaRestrita_Morador

@@ -49,17 +49,11 @@ public class MoradorActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     ArrayList<Encomendas> userArrayList;
     MyAdapterMorador myAdapter;
-    //FirebaseFirestore dbv;
     ProgressDialog progressDialog;
 
 
     String usuarioID;
     String avisoID;
-    String dataViewID;
-    String codigoViewID;
-    String tipoViewID;
-
-    String numApto;
 
 
     @Override

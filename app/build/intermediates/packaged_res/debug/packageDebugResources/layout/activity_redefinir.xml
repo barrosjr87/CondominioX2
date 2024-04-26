@@ -79,6 +79,8 @@
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp"
             android:background="#F8F5F5"
+            android:padding="10dp"
+            android:drawableRight="@drawable/ic_login"
             android:ems="10"
             android:hint=" E-mail"
             android:inputType="textEmailAddress" />

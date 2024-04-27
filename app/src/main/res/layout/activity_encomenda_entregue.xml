@@ -73,7 +73,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:text="Data:   18/032024"
+            android:drawableLeft="@drawable/ic_calendar"
+            android:text="  Data:   18/032024"
             android:textSize="20dp" />
 
         <TextView
@@ -83,7 +84,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:text="Apto.:   34"
+            android:drawableLeft="@drawable/ic_home"
+            android:text="  Apto.:   34"
             android:textSize="20dp" />
 
         <TextView
@@ -93,7 +95,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:text="Tipo:   Pacote"
+            android:drawableLeft="@drawable/ic_card"
+            android:text="  Tipo:   Pacote"
             android:textSize="20dp" />
 
         <TextView
@@ -103,7 +106,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:text="Cód.:   1234"
+            android:drawableLeft="@drawable/ic_location"
+            android:text="  CEP.:   01234-567"
             android:textSize="20dp" />
 
         <Button

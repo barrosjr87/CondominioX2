@@ -77,6 +77,8 @@
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp"
             android:background="#FBFBFB"
+            android:padding="10dp"
+            android:drawableRight="@drawable/ic_calendar"
             android:ems="10"
             android:hint=" Data"
             android:inputType="datetime|date" />
@@ -90,6 +92,8 @@
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp"
             android:background="#F8F5F5"
+            android:padding="10dp"
+            android:drawableRight="@drawable/ic_home"
             android:ems="10"
             android:hint=" Apartamento"
             android:inputType="number" />
@@ -103,6 +107,8 @@
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp"
             android:background="#F8F5F5"
+            android:padding="10dp"
+            android:drawableRight="@drawable/ic_location"
             android:ems="10"
             android:hint="CEP"
             android:inputType="number" />
@@ -119,7 +125,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Tipo:" />
+                android:text="Tipo:"
+                android:textStyle="bold"/>
 
             <RadioButton
                 android:id="@+id/radioButtonCarta_Recebimento"

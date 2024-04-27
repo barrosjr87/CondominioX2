@@ -1,9 +1,9 @@
-#Wed Apr 24 20:32:28 BRT 2024
-base.0=F\:\\Condominio_24-04\\CondominioX2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=F\:\\Condominio_24-04\\CondominioX2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=F\:\\Condominio_24-04\\CondominioX2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.3=F\:\\Condominio_24-04\\CondominioX2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.4=F\:\\Condominio_24-04\\CondominioX2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+#Thu Apr 25 18:57:29 BRT 2024
+base.0=F\:\\Condominio_25-04\\CondominioX2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=F\:\\Condominio_25-04\\CondominioX2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=F\:\\Condominio_25-04\\CondominioX2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.3=F\:\\Condominio_25-04\\CondominioX2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.4=F\:\\Condominio_25-04\\CondominioX2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=3/classes.dex

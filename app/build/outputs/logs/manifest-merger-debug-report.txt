@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:2:1-64:12
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:2:1-64:12
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Administrador\.gradle\caches\transforms-3\bd1d8836046116f15f8ff21a64a2052b\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Administrador\.gradle\caches\transforms-3\35263b396c90d500bfb9df9a218fa234\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Administrador\.gradle\caches\transforms-3\b4fae0cc10f18db3ed2307e93cfc9301\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -73,17 +73,17 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Adminis
 MERGED from [io.grpc:grpc-android:1.57.2] C:\Users\Administrador\.gradle\caches\transforms-3\b48f320d044885c4de994957a780753e\transformed\grpc-android-1.57.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Administrador\.gradle\caches\transforms-3\e950e5d4ed98ee27ce902120236b5269\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 	package
-		INJECTED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.11.1] C:\Users\Administrador\.gradle\caches\transforms-3\322c4d167afd717221bc8ec43367208a\transformed\firebase-firestore-24.11.1\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.11.1] C:\Users\Administrador\.gradle\caches\transforms-3\322c4d167afd717221bc8ec43367208a\transformed\firebase-firestore-24.11.1\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-database:20.3.1] C:\Users\Administrador\.gradle\caches\transforms-3\747fc51dadc9e575573584910a82202f\transformed\firebase-database-20.3.1\AndroidManifest.xml:23:5-67
@@ -93,10 +93,10 @@ MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\Administrador\.g
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Administrador\.gradle\caches\transforms-3\7ebc3534d75a2c2c1e1ed75aa3f41ccd\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Administrador\.gradle\caches\transforms-3\7ebc3534d75a2c2c1e1ed75aa3f41ccd\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:7:5-62:19
-INJECTED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:7:5-62:19
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:7:5-62:19
+INJECTED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:7:5-62:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Administrador\.gradle\caches\transforms-3\bd1d8836046116f15f8ff21a64a2052b\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Administrador\.gradle\caches\transforms-3\bd1d8836046116f15f8ff21a64a2052b\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Administrador\.gradle\caches\transforms-3\35263b396c90d500bfb9df9a218fa234\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -140,119 +140,119 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Administrador\.gra
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-3\004f5cb47c71932c5cb809518aee6a58\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrador\.gradle\caches\transforms-3\004f5cb47c71932c5cb809518aee6a58\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
-		INJECTED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Administrador\.gradle\caches\transforms-3\bf707c4929549d134498aa2367fa74ef\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:16:9-29
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:15:9-49
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:15:9-49
 	android:dataExtractionRules
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:9:9-65
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:9:9-65
 activity#com.example.condominiox.ListaPortariaEncomendas
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:17:9-19:40
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:19:13-37
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:18:13-52
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:18:13-52
 activity#com.example.condominiox.PortariaListaEncomendas
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:20:9-22:40
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:20:9-22:40
 	android:exported
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:22:13-37
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:21:13-52
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:21:13-52
 activity#com.example.condominiox.ConsultaCepActivity
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:23:9-25:40
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:25:13-37
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:24:13-48
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:24:13-48
 activity#com.example.condominiox.EncomendaEntregueActivity
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:26:9-28:40
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:26:9-28:40
 	android:exported
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:28:13-37
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:27:13-54
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:27:13-54
 activity#com.example.condominiox.MinhasEncomendasActivity
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:29:9-31:40
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:29:9-31:40
 	android:exported
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:31:13-37
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:30:13-53
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:30:13-53
 activity#com.example.condominiox.MoradorActivity
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:32:9-34:40
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:32:9-34:40
 	android:exported
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:34:13-37
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:33:13-44
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:33:13-44
 activity#com.example.condominiox.CadastroAvisoActivity
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:35:9-37:40
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:35:9-37:40
 	android:exported
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:37:13-37
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:36:13-50
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:36:13-50
 activity#com.example.condominiox.AreaRestritaActivity
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:38:9-40:40
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:38:9-40:40
 	android:exported
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:40:13-37
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:39:13-49
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:39:13-49
 activity#com.example.condominiox.RecebimentoActivity
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:41:9-43:40
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:41:9-43:40
 	android:exported
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:43:13-37
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:42:13-48
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:42:13-48
 activity#com.example.condominiox.RedefinirActivity
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:44:9-46:40
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:44:9-46:40
 	android:exported
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:46:13-37
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:45:13-46
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:45:13-46
 activity#com.example.condominiox.PortariaActivity
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:47:9-49:40
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:47:9-49:40
 	android:exported
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:49:13-37
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:48:13-45
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:48:13-45
 activity#com.example.condominiox.CadastroUsuarioActivity
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:50:9-52:40
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:50:9-52:40
 	android:exported
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:52:13-37
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:51:13-52
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:51:13-52
 activity#com.example.condominiox.MainActivity
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:53:9-61:20
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:53:9-61:20
 	android:exported
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:55:13-36
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:55:13-36
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:54:13-41
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:54:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:56:13-60:29
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:56:13-60:29
 action#android.intent.action.MAIN
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:57:17-69
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:57:17-69
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:57:25-66
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:57:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:59:17-77
+ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:59:17-77
 	android:name
-		ADDED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:59:27-74
+		ADDED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:59:27-74
 uses-sdk
-INJECTED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml
-INJECTED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml
+INJECTED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml
+INJECTED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Administrador\.gradle\caches\transforms-3\bd1d8836046116f15f8ff21a64a2052b\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Administrador\.gradle\caches\transforms-3\bd1d8836046116f15f8ff21a64a2052b\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Administrador\.gradle\caches\transforms-3\35263b396c90d500bfb9df9a218fa234\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -392,9 +392,9 @@ MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Adm
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\Administrador\.gradle\caches\transforms-3\7f47af2e8245ccc7f7f41c84e5ad306c\transformed\firebase-auth-22.3.1\AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
-		INJECTED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-firestore-ktx:24.11.0] C:\Users\Administrador\.gradle\caches\transforms-3\6c31328ef07ddd30b06f102cf6bdeb3d\transformed\firebase-firestore-ktx-24.11.0\AndroidManifest.xml:9:9-15:19
 MERGED from [com.google.firebase:firebase-firestore:24.11.1] C:\Users\Administrador\.gradle\caches\transforms-3\322c4d167afd717221bc8ec43367208a\transformed\firebase-firestore-24.11.1\AndroidManifest.xml:14:9-23:19

@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:5:5-67
-11-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:5:22-64
+11-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:5:5-67
+11-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
@@ -33,115 +33,115 @@
 22-->[androidx.core:core:1.9.0] C:\Users\Administrador\.gradle\caches\transforms-3\bf707c4929549d134498aa2367fa74ef\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 23
 24    <application
-24-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:7:5-62:19
+24-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:7:5-62:19
 25        android:allowBackup="true"
-25-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:8:9-35
+25-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:8:9-35
 26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 26-->[androidx.core:core:1.9.0] C:\Users\Administrador\.gradle\caches\transforms-3\bf707c4929549d134498aa2367fa74ef\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 27        android:dataExtractionRules="@xml/data_extraction_rules"
-27-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:9:9-65
+27-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:9:9-65
 28        android:debuggable="true"
 29        android:extractNativeLibs="false"
 30        android:fullBackupContent="@xml/backup_rules"
-30-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:10:9-54
+30-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:10:9-54
 31        android:icon="@mipmap/ic_launcher"
-31-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:11:9-43
+31-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:11:9-43
 32        android:label="@string/app_name"
-32-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:12:9-41
+32-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:12:9-41
 33        android:roundIcon="@mipmap/ic_launcher_round"
-33-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:13:9-54
+33-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:13:9-54
 34        android:supportsRtl="true"
-34-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:14:9-35
+34-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:14:9-35
 35        android:testOnly="true"
 36        android:theme="@style/Theme.CondominioX" >
-36-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:15:9-49
+36-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:15:9-49
 37        <activity
-37-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:17:9-19:40
+37-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:17:9-19:40
 38            android:name="com.example.condominiox.ListaPortariaEncomendas"
-38-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:18:13-52
+38-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:18:13-52
 39            android:exported="false" />
-39-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:19:13-37
+39-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:19:13-37
 40        <activity
-40-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:20:9-22:40
+40-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:20:9-22:40
 41            android:name="com.example.condominiox.PortariaListaEncomendas"
-41-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:21:13-52
+41-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:21:13-52
 42            android:exported="false" />
-42-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:22:13-37
+42-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:22:13-37
 43        <activity
-43-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:23:9-25:40
+43-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:23:9-25:40
 44            android:name="com.example.condominiox.ConsultaCepActivity"
-44-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:24:13-48
+44-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:24:13-48
 45            android:exported="false" />
-45-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:25:13-37
+45-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:25:13-37
 46        <activity
-46-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:26:9-28:40
+46-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:26:9-28:40
 47            android:name="com.example.condominiox.EncomendaEntregueActivity"
-47-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:27:13-54
+47-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:27:13-54
 48            android:exported="false" />
-48-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:28:13-37
+48-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:28:13-37
 49        <activity
-49-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:29:9-31:40
+49-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:29:9-31:40
 50            android:name="com.example.condominiox.MinhasEncomendasActivity"
-50-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:30:13-53
+50-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:30:13-53
 51            android:exported="false" />
-51-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:31:13-37
+51-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:31:13-37
 52        <activity
-52-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:32:9-34:40
+52-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:32:9-34:40
 53            android:name="com.example.condominiox.MoradorActivity"
-53-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:33:13-44
+53-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:33:13-44
 54            android:exported="false" />
-54-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:34:13-37
+54-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:34:13-37
 55        <activity
-55-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:35:9-37:40
+55-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:35:9-37:40
 56            android:name="com.example.condominiox.CadastroAvisoActivity"
-56-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:36:13-50
+56-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:36:13-50
 57            android:exported="false" />
-57-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:37:13-37
+57-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:37:13-37
 58        <activity
-58-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:38:9-40:40
+58-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:38:9-40:40
 59            android:name="com.example.condominiox.AreaRestritaActivity"
-59-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:39:13-49
+59-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:39:13-49
 60            android:exported="false" />
-60-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:40:13-37
+60-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:40:13-37
 61        <activity
-61-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:41:9-43:40
+61-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:41:9-43:40
 62            android:name="com.example.condominiox.RecebimentoActivity"
-62-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:42:13-48
+62-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:42:13-48
 63            android:exported="false" />
-63-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:43:13-37
+63-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:43:13-37
 64        <activity
-64-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:44:9-46:40
+64-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:44:9-46:40
 65            android:name="com.example.condominiox.RedefinirActivity"
-65-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:45:13-46
+65-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:45:13-46
 66            android:exported="false" />
-66-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:46:13-37
+66-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:46:13-37
 67        <activity
-67-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:47:9-49:40
+67-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:47:9-49:40
 68            android:name="com.example.condominiox.PortariaActivity"
-68-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:48:13-45
+68-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:48:13-45
 69            android:exported="false" />
-69-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:49:13-37
+69-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:49:13-37
 70        <activity
-70-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:50:9-52:40
+70-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:50:9-52:40
 71            android:name="com.example.condominiox.CadastroUsuarioActivity"
-71-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:51:13-52
+71-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:51:13-52
 72            android:exported="false" />
-72-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:52:13-37
+72-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:52:13-37
 73        <activity
-73-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:53:9-61:20
+73-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:53:9-61:20
 74            android:name="com.example.condominiox.MainActivity"
-74-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:54:13-41
+74-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:54:13-41
 75            android:exported="true" >
-75-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:55:13-36
+75-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:55:13-36
 76            <intent-filter>
-76-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:56:13-60:29
+76-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:56:13-60:29
 77                <action android:name="android.intent.action.MAIN" />
-77-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:57:17-69
-77-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:57:25-66
+77-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:57:17-69
+77-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:57:25-66
 78
 79                <category android:name="android.intent.category.LAUNCHER" />
-79-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:59:17-77
-79-->F:\Condominio_24-04\CondominioX2\app\src\main\AndroidManifest.xml:59:27-74
+79-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:59:17-77
+79-->F:\Condominio_25-04\CondominioX2\app\src\main\AndroidManifest.xml:59:27-74
 80            </intent-filter>
 81        </activity>
 82

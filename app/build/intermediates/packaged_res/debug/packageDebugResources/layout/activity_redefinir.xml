@@ -79,24 +79,25 @@
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp"
             android:background="#F8F5F5"
-            android:padding="10dp"
+            android:contentDescription="Digite seu e-mail cadastrado."
             android:drawableRight="@drawable/ic_login"
             android:ems="10"
             android:hint=" E-mail"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
 
         <Button
             android:id="@+id/buttonEntrar_Redefinir"
-            style="@style/Widget.MaterialComponents.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="100dp"
-            android:backgroundTint="@color/darkpurple"
+            android:backgroundTint="@color/blue"
             android:text="Enviar Solicitação"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            app:cornerRadius="0dp" />
 
     </LinearLayout>
 

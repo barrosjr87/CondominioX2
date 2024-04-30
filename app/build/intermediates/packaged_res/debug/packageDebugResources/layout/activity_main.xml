@@ -43,6 +43,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp"
+            android:contentDescription="Fazer Login"
             android:drawableTop="@drawable/baseline_login_24"
             android:gravity="center"
             android:text="Login"
@@ -81,32 +82,23 @@
 
         <Button
             android:id="@+id/buttonEntrar_Inicio"
-            style="@style/Widget.AppCompat.Button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp"
-            android:backgroundTint="@color/darkpurple"
+            android:backgroundTint="@color/blue"
+            android:contentDescription="Entrar. CLique para acessar a tela inicial do Morador"
             android:text="Entrar"
-            android:textColor="@color/white" />
-
-        <ProgressBar
-            android:id="@+id/progressBar_Inicio"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:visibility="invisible"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="100dp"/>
+            android:textColor="@color/white"
+            app:cornerRadius="0dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:orientation="horizontal"
+            android:layout_marginTop="100dp"
             android:paddingLeft="20dp"
             android:paddingRight="20dp">
 
@@ -115,21 +107,27 @@
                 android:id="@+id/buttonAreaRestrita_Inicio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/darkpurple"
+                android:backgroundTint="@color/blue"
+                android:contentDescription="Portaria. Clique para acessar a área restrita."
                 android:onClick="portaria"
                 android:text="Portaria"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                app:cornerRadius="0dp" />
 
             <Button
                 android:id="@+id/buttonNaoMeLembro_Inicio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/darkpurple"
+                android:backgroundTint="@color/blue"
+                android:contentDescription="Redefinir. Clique para solicitar uma nova senha."
                 android:onClick="redefinir"
                 android:text="Redefinir"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                app:cornerRadius="0dp" />
         </LinearLayout>
 
     </LinearLayout>

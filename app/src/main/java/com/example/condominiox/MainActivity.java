@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
@@ -125,6 +126,7 @@ protected void onCreate(Bundle savedInstanceState) {
         Intent iPortaria = new Intent(this, PortariaActivity.class);
         //Envio de solicitação
         startActivity(iPortaria);
+        Toast.makeText(this,"Somente pessoas AUTORIZADAS.",Toast.LENGTH_SHORT).show();
     }
 
     public void morador() {

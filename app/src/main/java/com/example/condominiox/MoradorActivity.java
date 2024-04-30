@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
@@ -106,9 +107,9 @@ public class MoradorActivity extends AppCompatActivity {
             @Override
             public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException error) {
                 //recuperando a chave "nome" do método Salvar Dados Usuário do Activity CadastroUsuárioActivity.java no objeto ola_morador
-                ola_Morador.setText("Olá, " + (documentSnapshot.getString("nome")+ "!"));
+                ola_Morador.setText("  Olá, " + (documentSnapshot.getString("nome")+ "!"));
                 //recuperando a chave "nome" do método Salvar Dados Usuário do Activity CadastroUsuárioActivity.java no objeto ola_morador
-                apartamento_Morador.setText("Apartamento " + (documentSnapshot.getString("apto")));
+                apartamento_Morador.setText("  Apartamento " + (documentSnapshot.getString("apto")));
             }
         });
 
@@ -186,6 +187,7 @@ public class MoradorActivity extends AppCompatActivity {
     }
 
     public void sair_Morador(View v) {
+        Toast.makeText(this,"Você saiu do Sistema...",Toast.LENGTH_SHORT).show();
         //Criação de intent para chamada de outra tela
         Intent iSair = new Intent(this, MainActivity.class);
         //Envio de solicitação

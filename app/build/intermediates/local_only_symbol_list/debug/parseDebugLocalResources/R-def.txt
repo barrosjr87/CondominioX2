@@ -3,6 +3,7 @@ local
 color black
 color blue
 color darkpurple
+color ic_launcher_background
 color lightpurple
 color white
 drawable baseline_add_circle_24
@@ -18,6 +19,7 @@ drawable baseline_manage_accounts_24
 drawable baseline_person_add_24
 drawable baseline_real_estate_agent_24
 drawable baseline_search_24
+drawable hands
 drawable ic_calendar
 drawable ic_card
 drawable ic_eye
@@ -26,6 +28,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_location
 drawable ic_login
+drawable ic_notifica
 drawable ic_person
 drawable ic_warning
 id AreaRestrita_AreaRestrita
@@ -33,6 +36,7 @@ id AreaRestrita_Encomenda
 id AreaRestrita_Morador
 id CadastroAviso_Aviso
 id EditTextPesquisa_AreaRestrita
+id btnPdf
 id buttonAreaRestrita_Inicio
 id buttonCadastrar_Cadastro
 id buttonCadastrar_Recebimento
@@ -122,7 +126,9 @@ layout activity_recebimento
 layout activity_redefinir
 layout item
 layout item2
+mipmap ic_hands
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string gcm_defaultSenderId

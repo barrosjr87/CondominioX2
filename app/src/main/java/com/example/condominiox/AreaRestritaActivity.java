@@ -179,6 +179,7 @@ public class AreaRestritaActivity extends AppCompatActivity {
     }
 
     public void sair(View v) {
+        Toast.makeText(this,"Você saiu do Sistema...",Toast.LENGTH_SHORT).show();
         //Criação de intent para chamada de outra tela
         Intent iSair = new Intent(this, MainActivity.class);
         //Envio de solicitação

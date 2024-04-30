@@ -1,7 +1,17 @@
 package com.example.condominiox;
 
+import android.Manifest;
+import android.app.Notification;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.format.DateFormat;
 import android.util.Log;
@@ -9,10 +19,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.annotation.SuppressLint;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
+import androidx.core.content.ContextCompat;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -39,24 +55,36 @@ import java.util.UUID;
 
 public class RecebimentoActivity extends AppCompatActivity {
 
+
     //Criando objetos globais
     private EditText dataRecebimento, aptoRecebimento, cepRecebimento;
 
     private RadioButton radioCarta, radioPacote;
 
-
     private Button cadastrarRecebimento;
 
     String radioGroup;
 
-    String[] mensagens = {"Preencha todos os campos!", "Selecione um tipo de Encomenda!", "Encomenda cadastrada com sucesso!"};
+    String[] mensagens = {"Preencha todos os campos!", "Selecione um tipo de Encomenda!", "Encomenda cadastrada com SUCESSO! Notificação enviada ao morador."};
     //Cria variável global utilizada no map de usuários
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_recebimento);
+
+        //Notificação enviado pelo porteiro tipo PUSH
+        // verifica a versão do android se e maior que a versão TIRAMISU
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU){
+            if(ContextCompat.checkSelfPermission(RecebimentoActivity.this,
+                    android.Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED){
+                ActivityCompat.requestPermissions(RecebimentoActivity.this,
+                        new String[]{Manifest.permission.POST_NOTIFICATIONS}, 101);
+            }
+        }
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -64,6 +92,7 @@ public class RecebimentoActivity extends AppCompatActivity {
         });
 
         iniciarComponentes();
+
 
         //Criando métoco de verificação se todos os campos foram preenchidos
         cadastrarRecebimento.setOnClickListener(new View.OnClickListener() {
@@ -99,13 +128,64 @@ public class RecebimentoActivity extends AppCompatActivity {
                     snackbar.setBackgroundTint(Color.WHITE);
                     snackbar.setTextColor(Color.BLACK);
                     snackbar.show();
-
+                    //chama a funcao para notificar
+                    makeNotification();
                 }
-
             }
         });
-
     }
+
+    // função para notificar entrega
+    public void makeNotification(){
+
+        //Variavel para receber a imagem da logo e colocar na notificação a direita (grande)
+        Bitmap logoIcon = BitmapFactory.decodeResource(getResources(),R.drawable.hands);
+
+        String channelID = "Aqui a notificação";
+        //construtor da notificação e texto de exibição da notificação
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(getApplicationContext(), channelID);
+        builder.setSmallIcon(R.drawable.ic_notifica)
+               .setContentTitle("Encomenda CHEGOU!")
+               .setContentText("Retirada liberada")
+               .setStyle(new NotificationCompat.BigTextStyle()
+                        .setBigContentTitle("Retire de sua nova encomenda")
+                        .bigText("Para retirar sua encomenda, apresente-se na portaria do Condominio Parque Serafim das 08:00 as 12:00 e das 13:00 as 21:00 de segunda-feira a sábado, não haverá retirada aos Domingos e feriados."))
+               .setLargeIcon(logoIcon)
+               .setAutoCancel(true)
+               .setPriority(NotificationCompat.PRIORITY_DEFAULT);
+
+        //intent para quando clicar na notificação encaminhar para a MainActivity e exibe um texto se quiser
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        intent.putExtra("data","");
+
+        //Montando a chamada da notificação
+        PendingIntent pendingIntent = PendingIntent.getActivity(getApplicationContext(), 0, intent, PendingIntent.FLAG_MUTABLE);
+        builder.setContentIntent(pendingIntent);
+
+        NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+
+        //Verificando a versão do android e exibindo erro se for abaixo do android oreo
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
+            NotificationChannel notificationChannel = notificationManager.getNotificationChannel(channelID);
+
+            if(notificationChannel == null){
+                int importance = NotificationManager.IMPORTANCE_HIGH;
+                notificationChannel = new NotificationChannel(channelID, "descrição", importance);
+                notificationChannel.setLightColor(Color.GREEN);
+                notificationChannel.enableVibration(true);
+                notificationManager.createNotificationChannel(notificationChannel);
+            }
+        }
+
+        //Executando o construtor e notificando
+        notificationManager.notify(0,builder.build());
+
+        //Toast.makeText(this,"Notificação Enviada...",Toast.LENGTH_SHORT).show();
+    }
+
+
+
 
 
     //Criando método para cadastrar encomenda recebida no banco de dados
@@ -161,6 +241,7 @@ public class RecebimentoActivity extends AppCompatActivity {
         radioCarta = findViewById(R.id.radioButtonCarta_Recebimento);
         radioPacote = findViewById(R.id.radioButtonPacote_Recebimento);
         cadastrarRecebimento = findViewById(R.id.buttonCadastrar_Recebimento);
+
     }
     public void sair(View v) {
         //Criação de intent para chamada de outra tela

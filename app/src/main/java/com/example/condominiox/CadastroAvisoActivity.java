@@ -33,7 +33,7 @@ public class CadastroAvisoActivity extends AppCompatActivity {
     private Button salvarAviso;
 
     //Criando Variáveis globais
-    String[] mensagens = {"Preencha todos os campos!", "Aviso cadastrada com sucesso!"};
+    String[] mensagens = {"Preencha todos os campos!", "Aviso cadastrado com sucesso!"};
     //Cria variável global utilizada no map de usuários
     String avisoID;
 

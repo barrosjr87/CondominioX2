@@ -64,7 +64,7 @@
             android:layout_margin="10dp"/>
 
         <Button
-            android:id="@+id/buttonSalvar_Aviso"
+            android:id="@+id/btnPdf"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"

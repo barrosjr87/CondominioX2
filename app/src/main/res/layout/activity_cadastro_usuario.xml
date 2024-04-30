@@ -64,7 +64,7 @@
             android:layout_marginBottom="10dp"
             android:drawableTop="@drawable/baseline_person_add_24"
             android:gravity="center"
-            android:text="Gerenciar Usuário"
+            android:text="Adicionar Usuário"
             android:textColor="@color/darkpurple"
             android:textSize="20dp" />
 
@@ -137,7 +137,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp"
-            android:backgroundTint="@color/darkpurple"
+            android:backgroundTint="@color/blue"
             android:text="Cadastrar"
             android:textColor="@color/white"
             app:cornerRadius="0dp" />

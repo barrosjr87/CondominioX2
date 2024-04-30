@@ -72,7 +72,7 @@
                 <TextView
                     android:id="@+id/textViewOla_Morador"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:drawableLeft="@drawable/ic_person"
                     android:text=""
                     android:textSize="18dp" />
@@ -80,7 +80,7 @@
                 <TextView
                     android:id="@+id/textViewApartamento_Morador"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:drawableLeft="@drawable/ic_home"
                     android:text=""
                     android:textSize="18dp" />
@@ -91,7 +91,6 @@
                 android:id="@+id/textViewHistórico_Morador"
                 android:layout_width="138dp"
                 android:layout_height="100dp"
-                android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:drawableTop="@drawable/baseline_lupa"
                 android:gravity="center"
@@ -105,7 +104,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="05dp"
+            android:layout_marginTop="20dp"
             android:drawableLeft="@drawable/ic_warning"
             android:text=" Mural de Avisos"
             android:textColor="@color/darkpurple"
@@ -116,6 +115,7 @@
             android:id="@+id/textViewAviso_Morador"
             android:layout_width="match_parent"
             android:layout_height="100dp"
+            android:layout_marginTop="05dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:padding="10dp"
@@ -126,7 +126,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="05dp"
+            android:layout_marginTop="20dp"
             android:drawableLeft="@drawable/ic_calendar"
             android:text=" Histórico de Encomendas"
             android:textColor="@color/darkpurple"
@@ -136,6 +136,7 @@
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="05dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"/>
 

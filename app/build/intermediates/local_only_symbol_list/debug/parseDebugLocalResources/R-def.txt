@@ -32,6 +32,7 @@ id AreaRestrita_AreaRestrita
 id AreaRestrita_Encomenda
 id AreaRestrita_Morador
 id CadastroAviso_Aviso
+id EditTextPesquisa_AreaRestrita
 id buttonAreaRestrita_Inicio
 id buttonCadastrar_Cadastro
 id buttonCadastrar_Recebimento
@@ -41,6 +42,7 @@ id buttonEntrar_Redefinir
 id buttonNaoMeLembro_Inicio
 id buttonSalvarRetirada_Encomenda
 id buttonSalvar_Aviso
+id button_Buscar
 id button_ListaPortaria
 id button_sairlistaportaria
 id cadastro_Aviso
@@ -50,7 +52,6 @@ id divider
 id editTextApto_Cadastro
 id editTextApto_Recebimento
 id editTextCep_Recebimento
-id editTextEmail_AreaRestrita
 id editTextEmail_Cadastro
 id editTextEmail_Inicio
 id editTextEmail_Portaria
@@ -62,13 +63,11 @@ id editTextSenha_Inicio
 id editTextSenha_Portaria
 id gerenciarUsuarios_Cadastro
 id gerenciarUsuarios_Recebimento
-id imageButton
-id imageButton_Historico
 id main
-id progressBar_Inicio
 id radioButtonCarta_Recebimento
 id radioButtonPacote_Recebimento
 id recyclerView
+id recyclerView2
 id sair_AreaRestrita
 id sair_Aviso
 id sair_Cadastro
@@ -77,7 +76,6 @@ id sair_Morador
 id sair_Recebimento
 id sair_Redefinir
 id textView
-id textView10_Historico
 id textView1_AreaRestrita
 id textView1_Aviso
 id textView1_Cadastro
@@ -87,6 +85,7 @@ id textView1_Morador
 id textView1_Portaria
 id textView1_Recebimento
 id textView1_Redefinir
+id textView2
 id textView2_Cadastro
 id textView2_Encomenda
 id textView2_Inicio
@@ -95,13 +94,7 @@ id textView2_Recebimento
 id textView2_Redefinir
 id textView3_Encomenda
 id textView4_Encomenda
-id textView4_Historico
 id textView5_Encomenda
-id textView5_Historico
-id textView6_Historico
-id textView7_Historico
-id textView8_Historico
-id textView9_Historico
 id textViewApartamento_Morador
 id textViewAviso_AreaRestrita
 id textViewAviso_Morador
@@ -109,9 +102,7 @@ id textViewCadastrarAviso_Aviso
 id textViewHistórico_Morador
 id textViewOla_Morador
 id textViewReceber_AreaRestrita
-id textViewReceber_Morador
 id textViewRetirada_Encomenda
-id textViewTela_Cep
 id textViewUsuário_AreaRestrita
 id tvCepLista
 id tvaptoLista
@@ -124,7 +115,6 @@ layout activity_cadastro_usuario
 layout activity_consulta_cep
 layout activity_encomenda_entregue
 layout activity_main
-layout activity_minhas_encomendas
 layout activity_morador
 layout activity_portaria
 layout activity_portaria_lista_encomendas

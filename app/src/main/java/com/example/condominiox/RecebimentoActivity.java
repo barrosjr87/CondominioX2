@@ -3,6 +3,7 @@ package com.example.condominiox;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -30,8 +31,11 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.lang.ref.Cleaner;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.UUID;
 
 public class RecebimentoActivity extends AppCompatActivity {
 
@@ -47,7 +51,6 @@ public class RecebimentoActivity extends AppCompatActivity {
 
     String[] mensagens = {"Preencha todos os campos!", "Selecione um tipo de Encomenda!", "Encomenda cadastrada com sucesso!"};
     //Cria variável global utilizada no map de usuários
-    String encomendaID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -112,10 +115,13 @@ public class RecebimentoActivity extends AppCompatActivity {
         String apartamento = aptoRecebimento.getText().toString();
         String Cep = cepRecebimento.getText().toString();
         String tipo = radioGroup;
+        String id = UUID.randomUUID().toString();
+
         //Inicia Banco de Dados no Firebase com a Instancia do Banco de Dados db
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         //Cria tabela Map de ENcomendas com a string chave e o objeto
         Map<String,Object> encomendas = new HashMap<>();
+        encomendas.put("id",id);
         encomendas.put("data",data);
         encomendas.put("apto",apartamento);
         encomendas.put("Cep",Cep);
@@ -123,7 +129,7 @@ public class RecebimentoActivity extends AppCompatActivity {
 
 
         //Criando documento de referencia que vai receber o banco de dados e cria uma coleção
-        DocumentReference documentoReferencia = db.collection("Encomendas").document();
+        DocumentReference documentoReferencia = db.collection("Encomendas").document(id);
         //cada usuário terá umdocumento referencia com seu usuário ID
 
         //setando objeto map usuário no documento e aplicando interface onSucessListener
@@ -156,7 +162,6 @@ public class RecebimentoActivity extends AppCompatActivity {
         radioPacote = findViewById(R.id.radioButtonPacote_Recebimento);
         cadastrarRecebimento = findViewById(R.id.buttonCadastrar_Recebimento);
     }
-
     public void sair(View v) {
         //Criação de intent para chamada de outra tela
         Intent iSair = new Intent(this, AreaRestritaActivity.class);

@@ -3161,6 +3161,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id CadastroAviso_Aviso
+id EditTextPesquisa_AreaRestrita
 id FUNCTION
 id META
 id NO_DEBUG
@@ -3274,6 +3275,7 @@ id buttonNaoMeLembro_Inicio
 id buttonPanel
 id buttonSalvarRetirada_Encomenda
 id buttonSalvar_Aviso
+id button_Buscar
 id button_ListaPortaria
 id button_sairlistaportaria
 id cache_measures
@@ -3356,7 +3358,6 @@ id edge
 id editTextApto_Cadastro
 id editTextApto_Recebimento
 id editTextCep_Recebimento
-id editTextEmail_AreaRestrita
 id editTextEmail_Cadastro
 id editTextEmail_Inicio
 id editTextEmail_Portaria
@@ -3417,8 +3418,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageButton
-id imageButton_Historico
 id immediateStop
 id included
 id indeterminate
@@ -3556,7 +3555,6 @@ id pooling_container_listener_holder_tag
 id position
 id postLayout
 id pressed
-id progressBar_Inicio
 id progress_circular
 id progress_horizontal
 id radio
@@ -3565,6 +3563,7 @@ id radioButtonPacote_Recebimento
 id ratio
 id rectangles
 id recyclerView
+id recyclerView2
 id report_drawn
 id reverseSawtooth
 id right
@@ -3663,7 +3662,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView10_Historico
 id textView1_AreaRestrita
 id textView1_Aviso
 id textView1_Cadastro
@@ -3673,6 +3671,7 @@ id textView1_Morador
 id textView1_Portaria
 id textView1_Recebimento
 id textView1_Redefinir
+id textView2
 id textView2_Cadastro
 id textView2_Encomenda
 id textView2_Inicio
@@ -3681,13 +3680,7 @@ id textView2_Recebimento
 id textView2_Redefinir
 id textView3_Encomenda
 id textView4_Encomenda
-id textView4_Historico
 id textView5_Encomenda
-id textView5_Historico
-id textView6_Historico
-id textView7_Historico
-id textView8_Historico
-id textView9_Historico
 id textViewApartamento_Morador
 id textViewAviso_AreaRestrita
 id textViewAviso_Morador
@@ -3695,9 +3688,7 @@ id textViewCadastrarAviso_Aviso
 id textViewHistórico_Morador
 id textViewOla_Morador
 id textViewReceber_AreaRestrita
-id textViewReceber_Morador
 id textViewRetirada_Encomenda
-id textViewTela_Cep
 id textViewUsuário_AreaRestrita
 id text_input_end_icon
 id text_input_error_icon
@@ -3875,7 +3866,6 @@ layout activity_cadastro_usuario
 layout activity_consulta_cep
 layout activity_encomenda_entregue
 layout activity_main
-layout activity_minhas_encomendas
 layout activity_morador
 layout activity_portaria
 layout activity_portaria_lista_encomendas

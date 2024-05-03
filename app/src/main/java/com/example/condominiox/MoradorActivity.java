@@ -112,13 +112,10 @@ public class MoradorActivity extends AppCompatActivity {
         usuarioID = FirebaseAuth.getInstance().getCurrentUser().getUid();
         avisoID = FirebaseAuth.getInstance().getCurrentUser().getProviderId();
 
-
-
-
         //Criando documento de referência que receberá a coleção criada no banco de dados que contém os dados do usuário
         DocumentReference documentoReferencia = db.collection("Usuários").document(usuarioID);
         DocumentReference documentoReferencia1 = db.collection("avisos").document(avisoID);
-        Query query = db.collection("Encomendas").whereEqualTo("retirado", "Não");
+
 
         documentoReferencia.addSnapshotListener(new EventListener<DocumentSnapshot>() {
             @Override
@@ -130,6 +127,8 @@ public class MoradorActivity extends AppCompatActivity {
             }
         });
 
+
+
         documentoReferencia1.addSnapshotListener(new EventListener<DocumentSnapshot>() {
             @Override
             public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException error) {
@@ -138,11 +137,29 @@ public class MoradorActivity extends AppCompatActivity {
             }
         });
 
-        query.addSnapshotListener(new EventListener<QuerySnapshot>() {
+
+
+        documentoReferencia.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
-            public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {
-                cont = value.size();
-                contador_Morador.setText(cont.toString());
+            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+
+                if (task.isSuccessful()) {
+                    DocumentSnapshot docSnapshot = task.getResult();
+
+                    if (docSnapshot.exists()) {
+                        String info = (String) docSnapshot.getData().get("apto");
+                        Query query = db.collection("Encomendas").whereEqualTo("apto", info).whereEqualTo("retirado", "Não");
+
+                        query.addSnapshotListener(new EventListener<QuerySnapshot>() {
+                            @Override
+                            public void onEvent(@Nullable QuerySnapshot value, @Nullable FirebaseFirestoreException error) {
+                                cont = value.size();
+                                contador_Morador.setText(cont.toString());
+                            }
+                        });
+                    }
+                }
+
             }
         });
 

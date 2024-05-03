@@ -1,4 +1,4 @@
-#Fri May 03 03:44:05 BRT 2024
+#Fri May 03 11:50:34 BRT 2024
 base.0=C\:\\Users\\barro\\AndroidStudioProjects\\CondominioX\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\barro\\AndroidStudioProjects\\CondominioX\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\barro\\AndroidStudioProjects\\CondominioX\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex

@@ -1,20 +1,31 @@
 package com.example.condominiox;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import com.google.firebase.firestore.FirebaseFirestore;
+
+import java.io.SequenceInputStream;
 import java.util.ArrayList;
 public class MyAdapterMorador extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
+
     Context context;
     ArrayList<Encomendas> userArrayList;
+
+    FirebaseFirestore db = FirebaseFirestore.getInstance();
+
+    private AdapterView.OnItemClickListener clickListener;
 
     public MyAdapterMorador(Context context, ArrayList<Encomendas> userArrayList) {
         this.context = context;
@@ -35,9 +46,11 @@ public class MyAdapterMorador extends RecyclerView.Adapter<MyAdapter.MyViewHolde
 
         Encomendas encomendas = userArrayList.get(position);
         holder.Cep.setText(encomendas.Cep);
-        holder.apto.setText(encomendas.apto);
+        holder.retirado.setText(encomendas.retirado);
         holder.data.setText(encomendas.data);
         holder.tipo.setText(encomendas.tipo);
+
+
     }
 
     @Override
@@ -46,14 +59,15 @@ public class MyAdapterMorador extends RecyclerView.Adapter<MyAdapter.MyViewHolde
     }
     public static class MyViewHolder extends RecyclerView.ViewHolder{
 
-        TextView Cep, apto, data, tipo;
+        TextView Cep, data, tipo, retirado, id;
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
             Cep = itemView.findViewById(R.id.tvCepLista);
-            apto = itemView.findViewById(R.id.tvaptoLista);
+            retirado = itemView.findViewById(R.id.tvretiradoLista);
             data = itemView.findViewById(R.id.tvdataLista);
             tipo = itemView.findViewById(R.id.tvtipoLista);
+
         }
     }
 }

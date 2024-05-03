@@ -72,7 +72,7 @@
                 <TextView
                     android:id="@+id/textViewOla_Morador"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="49dp"
                     android:drawableLeft="@drawable/ic_person"
                     android:text=""
                     android:textSize="18dp" />
@@ -80,26 +80,55 @@
                 <TextView
                     android:id="@+id/textViewApartamento_Morador"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="40dp"
                     android:drawableLeft="@drawable/ic_home"
                     android:text=""
                     android:textSize="18dp" />
 
             </LinearLayout>
 
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="82dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="MInhas Encomendas"
+                android:cropToPadding="false"
+                android:padding="10dp"
+                app:srcCompat="@drawable/ic_notifica"
+                tools:visibility="visible" />
+
             <TextView
-                android:id="@+id/textViewHistórico_Morador"
-                android:layout_width="138dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:drawableTop="@drawable/baseline_lupa"
-                android:gravity="center"
-                android:onClick="telacep"
-                android:text="Consulta CEP"
-                android:textColor="@color/darkpurple"
-                android:textSize="20sp" />
+                android:id="@+id/contador_Encomendas"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/red"
+                android:text="1"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
 
         </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonEntrar_Inicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/blue"
+            android:contentDescription="Entrar. CLique para acessar a tela inicial do Morador"
+            android:onClick="encomenda"
+            android:text="Minhas Encomendas"
+            android:textColor="@color/white"
+            app:cornerRadius="0dp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -111,13 +140,13 @@
             android:textSize="20dp" />
 
         <TextView
-            android:background="@color/white"
             android:id="@+id/textViewAviso_Morador"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="05dp"
+            android:layout_height="127dp"
             android:layout_marginLeft="10dp"
+            android:layout_marginTop="05dp"
             android:layout_marginRight="10dp"
+            android:background="@color/white"
             android:padding="10dp"
             android:text=""
             android:textSize="18dp" />
@@ -126,19 +155,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:drawableLeft="@drawable/ic_calendar"
-            android:text=" Histórico de Encomendas"
+            android:layout_marginTop="40dp"
+            android:drawableLeft="@drawable/baseline_domain_24"
+            android:text=" Contato Administração"
             android:textColor="@color/darkpurple"
             android:textSize="20dp" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerView"
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/PhoneNumber1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="05dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"/>
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/baseline_call_24"
+            android:text=" (11) 0000-0000"
+            android:textColor="@color/darkpurple"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/PhoneNumber2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/baseline_call_24"
+            android:text=" (11) 9999-9999"
+            android:textColor="@color/darkpurple"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
 
     </LinearLayout>
 

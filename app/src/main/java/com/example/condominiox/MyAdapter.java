@@ -11,9 +11,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 
+import java.text.BreakIterator;
 import java.util.ArrayList;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
+
 
     Context context;
     ArrayList<Encomendas> userArrayList;
@@ -41,6 +43,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         holder.apto.setText(encomendas.apto);
         holder.data.setText(encomendas.data);
         holder.tipo.setText(encomendas.tipo);
+        holder.retirado.setText(encomendas.retirado);
     }
 
     @Override
@@ -49,14 +52,15 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     }
     public static class MyViewHolder extends RecyclerView.ViewHolder{
 
-        TextView Cep, apto, data, tipo;
+        TextView Cep, apto, data, tipo, retirado, id;
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
             Cep = itemView.findViewById(R.id.tvCepLista);
-            apto = itemView.findViewById(R.id.tvaptoLista);
+            retirado = itemView.findViewById(R.id.tvretiradoLista);
             data = itemView.findViewById(R.id.tvdataLista);
             tipo = itemView.findViewById(R.id.tvtipoLista);
+            apto = itemView.findViewById(R.id.tvaptoLista);
         }
     }
 }

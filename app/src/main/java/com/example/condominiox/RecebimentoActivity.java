@@ -196,6 +196,7 @@ public class RecebimentoActivity extends AppCompatActivity {
         String Cep = cepRecebimento.getText().toString();
         String tipo = radioGroup;
         String id = UUID.randomUUID().toString();
+        String retirado = "Não";
 
         //Inicia Banco de Dados no Firebase com a Instancia do Banco de Dados db
         FirebaseFirestore db = FirebaseFirestore.getInstance();
@@ -206,6 +207,7 @@ public class RecebimentoActivity extends AppCompatActivity {
         encomendas.put("apto",apartamento);
         encomendas.put("Cep",Cep);
         encomendas.put("tipo",tipo);
+        encomendas.put("retirado",retirado);
 
 
         //Criando documento de referencia que vai receber o banco de dados e cria uma coleção

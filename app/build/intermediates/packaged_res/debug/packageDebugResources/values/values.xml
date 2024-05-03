@@ -5,6 +5,7 @@
     <color name="darkpurple">#810097</color>
     <color name="ic_launcher_background">#D5BBD5</color>
     <color name="lightpurple">#DBBDF1</color>
+    <color name="red">#FF5252</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Condomínio Parque Serafim</string>
     <string name="gcm_defaultSenderId" translatable="false">259009510488</string>

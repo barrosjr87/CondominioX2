@@ -1,9 +1,9 @@
-#Tue Apr 30 19:46:08 BRT 2024
-base.0=F\:\\29-04_Condominio\\CondominioX2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=F\:\\29-04_Condominio\\CondominioX2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=F\:\\29-04_Condominio\\CondominioX2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.3=F\:\\29-04_Condominio\\CondominioX2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.4=F\:\\29-04_Condominio\\CondominioX2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+#Fri May 03 03:13:32 BRT 2024
+base.0=C\:\\Users\\barro\\AndroidStudioProjects\\CondominioX\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\barro\\AndroidStudioProjects\\CondominioX\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\barro\\AndroidStudioProjects\\CondominioX\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.3=C\:\\Users\\barro\\AndroidStudioProjects\\CondominioX\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.4=C\:\\Users\\barro\\AndroidStudioProjects\\CondominioX\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=3/classes.dex

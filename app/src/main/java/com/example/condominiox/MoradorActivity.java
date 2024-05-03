@@ -163,6 +163,14 @@ public class MoradorActivity extends AppCompatActivity {
 
     }
 
+    public void encomenda(View v) {
+        //Criação de intent para chamada de outra tela
+        Intent iEncomenda = new Intent(this, EncomendaEntregueActivity.class);
+        //Envio de solicitação
+        startActivity(iEncomenda);
+
+    }
+
 
 
 
